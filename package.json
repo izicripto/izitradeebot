@@ -1,0 +1,27 @@
+{
+  "name": "crypto-trading-bot",
+  "version": "1.0.0",
+  "description": "Bot de trading automatizado para criptomoedas",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "demo": "node bot.js",
+    "backtest": "node run-backtest.js",
+    "test": "node test-bot.js"
+  },
+  "keywords": [
+    "crypto",
+    "trading",
+    "bot",
+    "binance",
+    "bitcoin"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ccxt": "^4.2.25",
+    "dotenv": "^16.4.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "technicalindicators": "^3.1.0"
+  }
+}
